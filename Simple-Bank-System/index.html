@@ -1,0 +1,198 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+      <!--/////////////////// header //////////////////////-->
+      
+      <header>
+        <div class="navbar">
+          <div class="container">
+            <div class="logo">
+              <a href="#"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <nav>
+              <a href="#">Home</a>
+              <a href="#">Clients</a>
+              <a href="#">TransfereMoney</a>
+              <a href="#">Transactions</a>
+            </nav>
+     
+        </div>
+      </header>
+       </div>
+      <!--/////////////////// hero section////////////////// -->
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">The Sparks Foundation Bank</h1>
+          <p>And I'm a Photographer</p>
+          <button><a  href="#">Go to the sparks foundation main site</a></button>
+        </div>
+      </div>
+
+       <!--/////////////////// services ////////////////// -->
+      <div class="bg"> 
+        <div class="container"> 
+        <h2 class='title'>Our Services</h2> 
+        <div class="services">
+        <div class="boxUI" id="clients">
+          <div class="image"></div>
+          <h3>Our Clients</h3>
+          <p>show the clients names , email , phone numer and currency</p>
+        </div>
+        <div class="boxUI" id="transfereMoney">  
+          <div class="image"></div>        
+          <h3>Transfere Money</h3>
+          <p>transfere money from one client to another</p></div>
+        <div class="boxUI" id="transactions">  
+          <div class="image"></div>  
+          <h3>Transactions</h3>
+          <p>show the old transactions between clients</p></div>
+      </div>
+    </div>
+  </div> 
+  <!-- ////////////////////////clientsPage///////////////// -->
+  <div id="clientsPage">
+  <div class="container">
+  <table style="width:100%">
+    <h2 class="title">Our Clients</h2>
+    <tr>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Currency</th>
+    </tr>
+    <tr>
+      <td id="ahmedId">01</td>
+      <td id="ahmedName">ahmed</td>
+      <td id="ahmedNumber" >058596554</td>
+      <td id="ahmedEmail">ahmed123@gmail.com</td>
+      <td id="ahmedCurrency">500000</td>
+    </tr>
+    <tr>
+      <td id="ayaId">02</td>
+      <td id="ayaName">aya</td>
+      <td id="ayaNumber">051966750</td>
+      <td id="ayaEmail">aya3@gmail.com</td>
+      <td id="ayaCurrency">1200000</td>
+    </tr>
+    <tr>
+      <td id="mohamedId">03</td>
+      <td id="mohamedName">mohamed</td>
+      <td id="mohamedNumber">059874256</td>
+      <td id="mohamedEmail">mohamed_23@gmail.com</td>
+      <td id="mohamedCurrency">6950000</td>
+    </tr>
+    <tr>
+      <td id="yomnaId">04</td>
+      <td id="yomnaName">yomna</td>
+      <td id="yomnaNumber">058889125</td>
+      <td id="yomnaEmail">yomna24@gmail.com</td>
+      <td id="yomnaCurrency">964500</td>
+    </tr>
+    <tr>
+      <td id="yehiaId">05</td>
+      <td id="yehiaName">yehia</td>
+      <td id="yehiaNumber">0589812354</td>
+      <td id="yehiaEmail">yehia4456@gmail.com</td>
+      <td id="yehiaCurrency">10000</td>
+    </tr>
+    <tr>
+      <td id="mahaId">06</td>
+      <td id="mahaName">maha</td>
+      <td id="mahaNumber">0589812354</td>
+      <td id="mahaEmail">maha4456@gmail.com</td>
+      <td id="mahaCurrency">7000</td>
+    </tr>
+    <tr>
+      <td id="raniaId">07</td>
+      <td id="raniaName">rania</td>
+      <td id="raniaNumber">0500089211</td>
+      <td id="raniaEmail">rania94@gmail.com</td>
+      <td id="raniaCurrency">15000</td>
+    </tr>
+    <tr>
+      <td id="omarId">08</td>
+      <td id="omarName">omar</td>
+      <td id="omarNumber">058799995</td>
+      <td id="omarEmail">omar88@gmail.com</td>
+      <td id="omarCurrency">30500</td>
+    </tr>
+    <tr>
+      <td id="mariamId">09</td>
+      <td id="mariamName">mariam</td>
+      <td id="mariamNumber">055557784</td>
+      <td id="mariamEmail">mariam44006@gmail.com</td>
+      <td id="mariamCurrency">3000</td>
+    </tr>
+    <tr>
+      <td id="hanaaId">10</td>
+      <td id="hanaaName">hanaa</td>
+      <td id="hanaaNumber">055664852</td>
+      <td id="hanaaEmail">hanaa06@gmail.com</td>
+      <td id="hanaaCurrency">300550</td>
+    </tr>
+  </table>
+</div>
+</div>
+  <!-- ////////////////////////transfereMoney page///////////////// -->
+  <div id="transfereMoneypage">
+    <div class="container" >
+      <h2 class="title">TransfereMoney</h2>
+      <form id =form class="bg">
+        <label >Sender Name</label>
+        <input id= 'senderName' /><br/>
+        <!-- <label>Sender Email</label>
+        <input  id= 'senderEmail'/><br/> -->
+        <label>Reciver Name</label>
+        <input id= 'reciverName'/><br/>
+        <!-- <label>Reciver Email</label>
+        <input id= 'reciverEmail'/><br/> -->
+        <label>Money Amount</label>
+        <input id= 'moneyAmount'/>
+        <input type="submit" id="submitBtn" value="Submit"/>
+        <p id="transfereConfirmation" ></p>
+      </form>
+    </div></div>
+    <!-- ////////////////////////transactions page///////////////// -->
+    <div id="transactionspage">
+      <div class="container">
+          <table style="width:100%">
+            <h2 class="title">Transactions</h2>
+            
+            <tr>
+
+              <th>Sender</th>
+              <th>Reciver</th>
+              <th>Money Amount</th>
+              <th>Sender New Balance</th>
+              <th>Reciver New Balance</th>
+            </tr>
+            <tr>
+    
+              <td id="transactionsSenderName"></td>
+              <td id="transactionsReciverName" ></td>
+              <td id="transactionsMoneyAmount"></td>
+              <td id="transactionsSenderCurrency"></td>
+              <td id="transactionsReciverCurrency"></td>
+            </tr>
+            
+          </table>
+        </div>
+        </div>
+       
+     
+      <footer>Made by <i>RANA HOSSAM SLAAH</i></footer>
+   
+    <script src="bank.js"></script>
+  </body>
+</html>
